@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:text="@string/congrat_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/personImageView"
+        android:layout_width="225dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/person_image_content_description" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_background_with_white_frame"
+        android:onClick="backButton"
+        android:text="@string/done_text"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+</LinearLayout>
